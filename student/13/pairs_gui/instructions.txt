@@ -1,0 +1,93 @@
+****RULES:
+-The pairs game involves 2 players
+
+-There is an even number of card.
+
+-The cards are hidden.
+
+-Each turn, a player choose a couple of card.
+
+-If 2 cards have the same letter, the current player get point
+and the cards are remove from game board
+
+-If 2 cards don't have the same letter,
+they are hidden again then it is the next player's turn
+
+-After all cards are removed, whoever has more points win
+
+-If 2 players have the same point, the game is a tie.
+
+****HOW TO USE THE PROGRAM:
++In main window
+-The user can choose an even number of card between 2 and 26
+then press "New Game" to start a new game. if the input is not an
+even number between 2 and 26(larger number, order character, etc),
+nothing will happen
+
+-The user can also choose name for player 1 and player 2.
+the default names are "Player 1" and "Player 2"
+if an empty string is given "" in the name box, we will use the
+default names
+
+-Pressing the "Close" button to close the main window of the game
+
+-After pressing the "New Game" button with a satisfied input number
+the game board window will show up and the input number box in the main window is clear.
+
+-At each time, there is only one game board window.
+so, pressing the "New Game" button again will close the current game(delete it)
+and a new game will start
+(new game board window shows up and the old one closes)
+
++In the game board window,
+-The timer will start right after the game board shows up
+and stop when the game is ended(there is winner)
+-There are 2 LCDs showing minute and second respectively
+
+-Player 1 will play first.
+
+-On the upper side, there is labels for name of the players
+Next to their names, there are their scores updated every turn.
+
+-The cards buttons will shows up in the middle area
+
+-There is a "Close" button to close the current game board
+
+-Every turn, the current player choose 2 cards by clicking on it
+then the player click "Next turn" to start the next turn
+(remove the similar cards or hide the cards again)
+
+-If the player choose less than 2 cards,
+there is a warning below the "Next turn" button and new turn can not start
+
+-When a card is clicked in the turn,
+it shows the letters and be disable(cannot be clicked again)
+
+- After 2 cards are chosen in a turn,
+clicking other cards will not shows the letter (no effect)
+
+-After choosing 2 cards, the current player clicks "Next turn" button
+if 2 cards are similar, the player get score and scores will be updated,
+the cards also will be removed.
+if 2 cards are not similar, they will be hidden again.
+
+-On top of the "Next turn" button,
+there are labels to show which player is in turn (with their name)
+and what is the number of turn so far.
+
+-When the game is ended, the winner will be show on top of the "Next turn" button
+and the timer stops. And the "Next turn button will be disable
+
+-To start the new game after game is ended,
+    Click the "Close" button in the "game board window"
+    Input a new number in the "main window"
+    Click "New game"
+
+
+****EXTRA FEATURES:
+-User can name the players(5p)
+-The time in the game is shown during the game(10p)
+-After the end of the game,
+user can start again without starting the program again(10p)
+-There is a figure on the back of cards(10p)
+Total extra points: 35p
